@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="../../CSS/region1.detail/region1.detail3.css"
+      rel="stylesheet"
+    />
+    <title>바다로 다가가는 장소</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1></h1>
+        <nav>
+          <a href="../../index.html"
+            ><img src="../../img/파라솔.jpg" id="parasol" />
+          <a href="../region.home.html" class="main_nav">지역</a>
+          <a href="../../caution/caution.html" class="main_nav">주의사항</a>
+        </nav>
+      </header>
+      <div class="main">
+        <aside class="left-aside">
+          <ul class="region_list">
+            <li class="region_list_1"><a href="../region1.html">강원도</a></li>
+            <li class="ocean_list_1">
+              <a href="region1.detail1.html">강문해수욕장</a>
+            </li>
+            <li class="ocean_list_2">
+              <a href="region1.detail2.html">등대해수욕장</a>
+            </li>
+            <li class="ocean_list_3">
+              <a href="region1.detail3.html">하조대해수욕장</a>
+            </li>
+          </ul>
+        </aside>
+        <div class="content">
+          <div class="container-1">
+            <div class="content-1">
+              <div class="content-1-1">
+                <h2>하조대해수욕장</h2>
+              </div>
+            </div>
+            <div class="content-2">위치:강원 양양군 현북면 하광정리 80-2</div>
+            <div class="content-3">
+              &nbsp; &nbsp;하조대는 옥빛 바다와 부드럽게 펼쳐진 백사장, 주변의
+              등대 풍광, 기암괴석과 바위섬 등이 어우러져 빼어난 절경을
+              자랑합니다. 하조대 해수욕장은 모래가 부드러워 아이들이 놀기에도
+              적합합니다.
+            </div>
+            <div class="content-4">
+              <!-- * 카카오맵 - 지도퍼가기 -->
+              <!-- 1. 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1655459991608"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+
+              <!--
+                2. 설치 스크립트
+                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+              -->
+              <script
+                charset="UTF-8"
+                class="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+              ></script>
+
+              <!-- 3. 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1655459991608",
+                  key: "2anq4",
+                  mapWidth: "380",
+                  mapHeight: "200",
+                }).render();
+              </script>
+            </div>
+            <div class="content-5">
+              <img src="../../img/region1/region1.ocean/하조대.jpg" id="hazo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p id="copyright">Copyright &copy; 2022 by The Ocean Collection</p>
+      </footer>
+    </div>
+  </body>
+</html>

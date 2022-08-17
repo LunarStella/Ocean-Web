@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="../../CSS/region1.detail/region1.detail1.css"
+      rel="stylesheet"
+    />
+    <title>바다로 다가가는 장소</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1></h1>
+        <nav>
+          <a href="../../index.html"
+            ><img src="../../img/파라솔.jpg" id="parasol" />
+          <a href="../region.home.html" class="main_nav">지역</a>
+          <a href="../../caution/caution.html" class="main_nav">주의사항</a>
+        </nav>
+      </header>
+      <div class="main">
+        <aside class="left-aside">
+          <ul class="region_list">
+            <li class="region_list_1"><a href="../region1.html">강원도</a></li>
+            <li class="ocean_list_1">
+              <a href="region1.detail1.html">강문해수욕장</a>
+            </li>
+            <li class="ocean_list_2">
+              <a href="region1.detail2.html">등대해수욕장</a>
+            </li>
+            <li class="ocean_list_3">
+              <a href="region1.detail3.html">하조대해수욕장</a>
+            </li>
+          </ul>
+        </aside>
+        <div class="content">
+          <div class="container-1">
+            <div class="content-1">
+              <div class="content-1-1">
+                <h2>강문해수욕장</h2>
+              </div>
+            </div>
+            <div class="content-2">위치:강원 강릉시 강문동 182-1</div>
+            <div class="content-3">
+              &nbsp; &nbsp;강문해변은 강문동에 자리잡고 있으며 주변에 작은 포구인 강문항이 있어 근처 횟집에서 새벽에 잡은 싱싱한 생선회를 맛볼 수 있습니다. 깨끗이 정비된 숙박시설과 경포지구가 근접해 있습니다.강문해변에서는 보트로 5∼10분 걸리는 곳에 정박을 하여 수심 5~30m의 바다 속에 방대하게 펼쳐진 자연짬(바위), 말미잘, 대형어류 등 뛰어난 수중경관을 감상할 수 있습니다.
+            </div>
+            <div class="content-4">
+              <!-- * 카카오맵 - 지도퍼가기 -->
+              <!-- 1. 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1655525049129"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+
+              <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+              <script
+                charset="UTF-8"
+                class="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+              ></script>
+
+              <!-- 3. 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1655525049129",
+                  key: "2anu4",
+                  mapWidth: "380",
+                  mapHeight: "200",
+                }).render();
+              </script>
+            </div>
+            <div class="content-5">
+              <img src="../../img/region1/region1.ocean/강문.jpg" id="hazo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p id="copyright">Copyright &copy; 2022 by The Ocean Collection</p>
+      </footer>
+    </div>
+  </body>
+</html>

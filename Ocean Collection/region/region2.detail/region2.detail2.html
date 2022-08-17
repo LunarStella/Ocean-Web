@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="../../CSS/region2.detail/region2.detail2.css"
+      rel="stylesheet"
+    />
+    <title>바다로 다가가는 장소</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1></h1>
+        <nav>
+          <a href="../../index.html"
+            ><img src="../../img/파라솔.jpg" id="parasol" />
+          <a href="../region.home.html" class="main_nav">지역</a>
+          <a href="../../caution/caution.html" class="main_nav">주의사항</a>
+        </nav>
+      </header>
+      <div class="main">
+        <aside class="left-aside">
+          <ul class="region_list">
+            <li class="region_list_1"><a href="../region2.html">경기도</a></li>
+            <li class="ocean_list_1">
+              <a href="region2.detail1.html">국화도해수욕장</a>
+            </li>
+            <li class="ocean_list_2">
+              <a href="region2.detail2.html">방아머리해수욕장</a>
+            </li>
+            <li class="ocean_list_3">
+              <a href="region2.detail3.html">제부도해수욕장</a>
+            </li>
+          </ul>
+        </aside>
+        <div class="content">
+          <div class="container-1">
+            <div class="content-1">
+              <div class="content-1-1">
+                <h2>방아머리해수욕장</h2>
+              </div>
+            </div>
+            <div class="content-2">위치:경기 안산시 단원구 대부북동</div>
+            <div class="content-3">
+              &nbsp; &nbsp;시화방조제와 연결이 되어 육지가 되어버린 섬이지만
+              아직도 섬이 가진 낭만과 서정이 곳곳에 남아있는 대부도의 '방아머리
+              해수욕장'입니다. 텐트 설치 및 취사가 가능하여 캠퍼들이 많이 찾는
+              곳으로, 바닷가에서 낭만적인 하룻밤을 즐길 수 있습니다.
+            </div>
+            <div class="content-4">
+              <!-- * 카카오맵 - 지도퍼가기 -->
+              <!-- 1. 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1655564230009"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+
+              <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+              <script
+                charset="UTF-8"
+                class="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+              ></script>
+
+              <!-- 3. 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1655564230009",
+                  key: "2anxa",
+                  mapWidth: "380",
+                  mapHeight: "200",
+                }).render();
+              </script>
+            </div>
+            <div class="content-5">
+              <img
+                src="../../img/region2/region2.ocean/방아머리.jpg"
+                id="hazo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p id="copyright">Copyright &copy; 2022 by The Ocean Collection</p>
+      </footer>
+    </div>
+  </body>
+</html>
